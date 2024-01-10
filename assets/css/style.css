@@ -1,0 +1,19 @@
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fixed Footer */
+
+.modal-footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
