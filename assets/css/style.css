@@ -1,3 +1,4 @@
+/* Main content */
 * {
     padding: 0;
     margin: 0;
@@ -43,4 +44,16 @@ h2, p {
     background-color: #454b1b;
     color: #fafafa;
 }
+
+
+/* Fixed Footer */
+
+.modal-footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+/* RECIPE CARD CSS */
 
