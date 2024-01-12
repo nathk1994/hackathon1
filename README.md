@@ -1,36 +1,28 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-HACKATHON 1
+HACKATHON 1 PROJECT
 
-Welcome,
+# Welcome to the ByteSize - Recipe Website
 
-## Gitpod Reminders
+## Description
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Website architecture was developed using HTML, Bootstrap & CSS and was successfully web-hosted via the GitHub Pages service. Now it is always available and very accessible. 
+Developed by the Curious Coders
 
-`python3 -m http.server`
+## Website Pages
+Home Page View:
+![Home Page View](https://imgur.com/Dt7Ru4e.png)
 
-A blue button should appear to click: _Make Public_,
+Recipe Page View:
+![Recipe Page View](https://imgur.com/UJjKPz2.png)
 
-Another blue button should appear to click: _Open Browser_.
+Contact/Feedback Page View:
+![Contact/Feedback Page View](https://imgur.com/0ERAEyO.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Initial Wireframe View (Figma):
+![Initial Wireframe View](https://imgur.com/Ad54qkg.png)
 
-A blue button should appear to click: _Make Public_,
+Initial Website HTML/Bootstrap Structure View:
+![Initial Website HTML/Bootstrap Structure View](https://imgur.com/iicZSSt.png)
 
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
+Thank you for Viewing!
