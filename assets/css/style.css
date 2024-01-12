@@ -11,6 +11,11 @@ main {
     background-image: url(../css/pexels-ella-olsson-1640773.jpg);
 }
 
+body {
+    background-color: darkgray;
+    color: white;
+}
+
 h1,h2,h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -24,22 +29,22 @@ h1,h2,h3 {
     width: 100%;
     background: url(../images/nachos-tacos.avif) no-repeat center center/cover;
     box-sizing: border-box;
-    filter: grayscale(100%);
+    color: transparent;
     overflow: hidden;
 }
 
 /* Style for the about section */
-/*
+
 #about {
-    background-color: transparent;
     justify-content: center;
+    background-color: darkgray;
+    color: white;
 
 }
 
 #about div {
     width: 70%;
     margin: 0 auto;
-    background-color: orange;
 }
 
 #recipes {
@@ -47,7 +52,6 @@ h1,h2,h3 {
 }
 
 .recipes-home-box {
-    background-color: grey;
     width: 40%;
     margin: 20px;
     border: 3px solid #fcfaeb;
@@ -72,7 +76,6 @@ h1,h2,h3 {
 #right-recipe {
     float: right;
 }  
-*/
 
 
 /* Main content */
