@@ -7,6 +7,8 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+    background-color: rgba(60, 60, 60, 0.6);
+    background-image: url(../css/pexels-ella-olsson-1640773.jpg);
 }
 
 h1,h2,h3 {
@@ -14,6 +16,7 @@ h1,h2,h3 {
     letter-spacing: 1px;
     text-align: center;
 }
+
 /* Style of the hero section */
 
 #hero {
@@ -73,11 +76,13 @@ h1,h2,h3 {
 
 
 /* Main content */
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+    background-color: rgba(60, 60, 60, 0.6);
+} */
+
 
 /*Contact Form*/
 #contact-form {
@@ -120,7 +125,7 @@ h2, p {
 }
 
 
-/* Fixed Footer */
+/* Fixed Footer - PROBLEMATIC */
 
 .modal-footer {
     position: fixed;
@@ -130,4 +135,17 @@ h2, p {
 
 }
 
-/* RECIPE CARD CSS */
+/* RECIPE CARD CSS - FOR SOME REASON, CSS HERE IS NOT BEING DETECTED */
+
+#recipe-section {
+    /* color: #ffffff; */
+    background-color: rgba(60, 60, 60, 0.6) !important;
+    background-image: url(../css/pexels-ella-olsson-1640773.jpg);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
+
