@@ -21,7 +21,7 @@ h1,h2,h3 {
     width: 100%;
     background: url(../images/nachos-tacos.avif) no-repeat center center/cover;
     box-sizing: border-box;
-    filter: grayscale(100%);
+    color: transparent;
     overflow: hidden;
 }
 
