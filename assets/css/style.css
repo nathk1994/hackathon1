@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/* Style of the hero section */
+
+#hero {
+    height: 300px;
+    width: 100%;
+    background: url(../images/nachos-tacos.avif) no-repeat center center/cover;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+    overflow: hidden;
+}
+/* Style for the about section */
+/*
+#about {
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+#about div {
+    width: 70%;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+#recipes {
+    width: 90vw
+}
+
+.recipes-home-box {
+    background-color: grey;
+    width: 40%;
+    margin: 20px;
+    border: 3px solid #fcfaeb;
+    text-align: center;
+    height: 200px;
+}
+
+#recipes-home {
+    display: flex;
+    justify-content: space-around;
+}
+*/
+/*
+ #left-recipe {
+    float: left;
+}
+
+#center-recipe {
+    margin: 0 auto;
+}
+
+#right-recipe {
+    float: right;
+}  
+*/
+
+/* Fixed Footer */
+
+.modal-footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
